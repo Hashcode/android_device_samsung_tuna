@@ -42,6 +42,7 @@ BOARD_KERNEL_BASE := 0x80000000
 
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := tuna_defconfig
+TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/tuna
 
 TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
