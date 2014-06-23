@@ -45,6 +45,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_tuna_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/tuna
 
 TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
+PRODUCT_VENDOR_KERNEL_HEADERS := device/samsung/tuna/kernel-headers
 
 TARGET_NO_RADIOIMAGE := true
 TARGET_BOARD_PLATFORM := omap4
