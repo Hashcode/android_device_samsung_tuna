@@ -79,7 +79,7 @@ Value* WriteBootloaderFn(const char* name, State* state, int argc, Expr* argv[])
 #define BAD_SIZE  0x01b14fdfULL
 #define GOOD_SIZE 0x01b14fdeULL
 
-#define HSPA_PRIME_KEY_PARTITION "/dev/block/platform/omap/omap_hsmmc.0/by-name/metadata"
+#define HSPA_PRIME_KEY_PARTITION "/dev/block/platform/omap_hsmmc.0/by-name/metadata"
 
 Value* FsSizeFixFn(const char* name, State* state, int argc, Expr* argv[])
 {
